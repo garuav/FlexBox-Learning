@@ -4,17 +4,66 @@ body{
 .flex-container {
     display: flex;
     background: white;
+    flex-wrap: wrap;
 }
-.box{
+.wrapper{
+    widows: 100%;
+}
+nav{
+    background: #000000;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color:#fff;
+    display: block;
+    padding:10px;
+}
+nav a:hover{
+    background: #555;
+}
+
+/* flex styling */
+
+@media screen and (min-width:760px){
+
+    nav ul{
+        display: flex;
+        justify-content: flex-start;        
+    }
+    nav li{
+        flex: 1 1 0;
+    }
+}
+
+
+
+
+/* .box{
     height: 100px;
     min-width: 100px;
+    flex-grow: 1;
+     flex-basis: 200px; 
 }
 .one{
     background: rgb(92, 69, 69);
+     flex-grow: 1; 
+     flex-shrink: 1; 
+     flex-basis: 100px; 
 }
 .two{
     background: rgb(74, 104, 76);
+     flex-grow: 2; 
+     flex-shrink: 2; 
+     flex-basis: 200px; 
 }
 .three{
     background: rgba(77, 134, 132, 0.418);
-}
+     flex-grow: 3; 
+     flex-shrink: 3; 
+     flex-basis: 300px; 
+} */
