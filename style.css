@@ -1,0 +1,20 @@
+body{
+    background: #e9e6e6
+}
+.flex-container {
+    display: flex;
+    background: white;
+}
+.box{
+    height: 100px;
+    min-width: 100px;
+}
+.one{
+    background: rgb(92, 69, 69);
+}
+.two{
+    background: rgb(74, 104, 76);
+}
+.three{
+    background: rgba(77, 134, 132, 0.418);
+}
