@@ -33,10 +33,14 @@ nav a:hover{
 
     nav ul{
         display: flex;
-        justify-content: flex-start;        
+        /* justify-content: flex-start;         */
     }
     nav li{
         flex: 1 1 0;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
     }
 }
 
